@@ -1,5 +1,7 @@
 use todo5;
 
+#Inserir Produtos
+
 insert into Produto (id_produto, nome_produto, descricao_produto, modelo_produto, fabricante_produto, valor_produto, categoria_produto) 
 values 
 (1, "Echo Dot (4ª Geração)", "Assistente Virtul", "Echo Dot (4ª Geração)", "Amazon", 37905, "Assesórios"),
