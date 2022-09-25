@@ -21,4 +21,21 @@ values
 (15, "Apple IPhone 12 Pro Max", "IPhone 12 Pro Max 128GB Prateado 6,7", "12 Pro Max 128GB", "Apple", 739900, "Smart Phone"),
 (16, "Apple Watch Series 7", "Smart Watch Series 3 RED", "MTEY7BZ/R", "Apple", 499900, "Smart Watch");
 
-select * from Produto
+select * from Produto;
+
+#Inserir Clientes
+
+insert into Clientes (CPF, nome, email) 
+values 
+(11111111111, "Joana Darck","j.dark@gmail.com"),
+(22222222222, "Jonas Marino","jmarino@gmail.com"),
+(33333333333, "Fernanda Pereira","fepereira@gmail.com"),
+(44444444444, "Rodolfo Dias","rodias@gmail.com"),
+(55555555555, "Nicolas de Paula","nip@gmail.com"),
+(66666666666, "Giovanni Alvarenga","gio@gmail.com"),
+(77777777777, "Joana Dias","jdias@gmail.com"),
+(88888888888, "Vitor Silva","vsilva@gmail.com"),
+(99999999999, "Leandro Martinz","martinz@gmail.com"),
+(10101010100, "Joana Davila","davilaj@gmail.com");
+
+select * from clientes;
