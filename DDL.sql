@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS avaliacao (
     id_avaliacao INT PRIMARY KEY NOT NULL,
     comentario VARCHAR(200),
     avaliação INT,
+    Av_data date,
     id_produto INT NOT NULL,
     FOREIGN KEY (id_produto)
         REFERENCES Produto (id_produto),
